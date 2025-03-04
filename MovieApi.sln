@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieApi.Domain", "Core\Mov
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieApi.Persistence", "Infrastructure\MovieApi.Persistence\MovieApi.Persistence.csproj", "{7067641F-ABFA-4D97-B005-0B7EC7FFC651}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieApi.WebApi", "Presentation\MovieApi.WebApi\MovieApi.WebApi.csproj", "{0713DDD1-04F7-476B-A0C2-4B650ED763F3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,6 +33,10 @@ Global
 		{7067641F-ABFA-4D97-B005-0B7EC7FFC651}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7067641F-ABFA-4D97-B005-0B7EC7FFC651}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7067641F-ABFA-4D97-B005-0B7EC7FFC651}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0713DDD1-04F7-476B-A0C2-4B650ED763F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0713DDD1-04F7-476B-A0C2-4B650ED763F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0713DDD1-04F7-476B-A0C2-4B650ED763F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0713DDD1-04F7-476B-A0C2-4B650ED763F3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -38,6 +44,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{D63E3996-8449-4599-8B3A-A58F18F0EAD7} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 		{7067641F-ABFA-4D97-B005-0B7EC7FFC651} = {F78E6FCC-B0C3-49AC-91D2-6F45D376797E}
+		{0713DDD1-04F7-476B-A0C2-4B650ED763F3} = {C6565B5F-C000-4006-81AE-1419A76F3457}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {769EC778-0961-49DD-AB7E-C143973FF4C0}

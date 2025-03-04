@@ -12,7 +12,7 @@ namespace MovieApi.Persistence.Context
     {
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseNpgsql("Host=localhost;Database=sirket_paneli;Username=postgres;Password=6108");
+            optionsBuilder.UseSqlServer("Server=AVARISLI\\SQLEXPRESS01;initial Catalog=ApiMovieDb;integrated Security=true;TrustServerCertificate=true");
         }
         public DbSet<Category> Categories { get; set; }
         public DbSet<Movie> Movies { get; set; }
