@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace MovieApi.Application.Features.CQRSDesignPattern.Commands.CategoryCommands
 {
-    public class RemoveCategoryCommands
+    public class CreateCategoryCommand
     {
-        public int CategoryId { get; set; }
+        public string CategoryName { get; set; }
     }
 }
